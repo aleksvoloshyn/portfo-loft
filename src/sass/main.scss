@@ -8,7 +8,12 @@
 
 @import './utils/main';
 @import './base/main';
+@import './layout/main';
 
-* {
+// * {
+//   outline: 1px solid salmon;
+// }
+
+.container {
   outline: 1px solid salmon;
 }

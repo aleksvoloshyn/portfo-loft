@@ -1,0 +1,25 @@
+.navigation__list,
+.contacts {
+  display: none;
+}
+
+.searchbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.userbar {
+  display: flex;
+}
+
+.searchbar__menulogo,
+.searchbar__logo,
+.userbar {
+  order: 1;
+}
+
+.searchbar__input {
+  order: 2;
+}
